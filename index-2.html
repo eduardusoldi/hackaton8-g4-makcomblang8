@@ -8,18 +8,29 @@
     <title>Makcomblang 8 | Find your true love!</title>
     <link rel="stylesheet" href="index-2-style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="index-2.js" defer></script>
+
 </head>
 
 <body>
     <div class="center1">
-        <button class="button1" style="vertical-align:middle"><span>Pick a couple! </span></button>
+        <a href="index-3.html">
+            <button class="button1" style="vertical-align:middle"><span>Pick a couple! </span></button>
+        </a>
     </div>
     <form class="center3">
-        <input type="text" id="name" name="name" placeholder="Jon">
+        <input type="text" id="name" name="name" placeholder="Edu">
     </form>
     <div class="center2">
-        <button class="button2" style="vertical-align:middle"><span>Submit! </span></button>
+        <button class="button2" onclick="pencet()" style="vertical-align:middle"><span>Submit! </span>></button>
     </div>
+    <div id="popup">
+        <h2 id="isiPopup"></h2>
+        <p>
+          Ayo cari jodohmu sekarang di hacktiv8!
+        </p>
+        <a href="index-3.html" onclick="lanjut()">lanjut!</a>
+      </div>
 
 </body>
 
