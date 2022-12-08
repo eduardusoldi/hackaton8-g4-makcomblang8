@@ -1,0 +1,127 @@
+body {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    background: url(./assets/background-3.png);
+}
+.identity1 p {
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 30px;
+    -ms-transform: translate(250%, 50%);
+    transform: translate(65%, -820%);
+    text-shadow: black;
+}
+
+.identity2 p {
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 30px;
+    -ms-transform: translate(250%, 50%);
+    transform: translate(90%, -1180%);
+}
+
+.icon img {
+    width: 6%;
+    margin: 5px;
+    border: 10%;
+    
+}
+
+.iconTotal {
+    padding-left: 50px;
+    padding-top: 200px;
+}
+
+.icon img:hover {
+    border-style: dotted;
+    border-color: #ffffff;
+    width: 8%;
+    margin: 5px;
+    border: 10%;
+}
+
+#man {
+    position: relative;
+    width: 300px;
+    -ms-transform: translate(250%, 50%);
+    transform: translate(225%, -120%);
+}
+#woman {
+    position: relative;
+    width: 300px;
+    -ms-transform: translate(250%, 50%);
+    transform: translate(235%, -120%);
+}
+
+/* button strat */
+.button2 {
+    display: inline-block;
+    border-radius: 12px;
+    background-color: #f16298;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 10px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    transition-duration: 0.4s;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #66073e;
+    color: white;
+}
+
+.button2:hover span {
+    padding-right: 25px;
+}
+
+.button2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.center2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(50%, 50%);
+    transform: translate(-143%, -40%);
+}
+/* button end */
+
+.center2 p {
+    font-family: Roboto;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 20px;
+}
