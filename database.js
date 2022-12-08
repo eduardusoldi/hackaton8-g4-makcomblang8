@@ -3,7 +3,7 @@ const dbPria = [
         nama: "Arvin",
         role: "student",
         umur: 26,
-        hobi: "main",
+        hobi: "coding",
         "kalimat untuk hacktive": "Apapun hasil yg penting barium fox 54 lulus Lanjut phase sampai kelar ",
         jenisKelamin: "Pria"
     },
@@ -11,7 +11,7 @@ const dbPria = [
         nama: "Jhon",
         role: "student",
         umur: 25,
-        hobi: "main",
+        hobi: "film",
         "kalimat untuk hacktive": "semakin semangat untuk belajar setiap harinya",
         jenisKelamin: "Pria"
     },
@@ -19,7 +19,7 @@ const dbPria = [
         nama: "Alfin",
         role: "student",
         umur: 24,
-        hobi: "main",
+        hobi: "film",
         "kalimat untuk hacktive": "terus berusaha untuk belajar",
         jenisKelamin: "Pria"
     },
@@ -35,7 +35,7 @@ const dbPria = [
         nama: "Hamzah",
         role: "student",
         umur: 23,
-        hobi: "coding",
+        hobi: "film",
         "kalimat untuk hacktive": "be humble and chill",
         jenisKelamin: "Pria"
     },
@@ -59,7 +59,7 @@ const dbPria = [
         nama: "Christ",
         role: "student",
         umur: 24,
-        hobi: "main",
+        hobi: "olahraga",
         "kalimat untuk hacktive": "tetap berusaha menyelesaikan",
         jenisKelamin: "Pria"
     },
@@ -67,7 +67,7 @@ const dbPria = [
         nama: "Cakra",
         role: "student",
         umur: 26,
-        hobi: "coding",
+        hobi: "olahraga",
         "kalimat untuk hacktive": "Gg coding",
         jenisKelamin: "Pria"
     },
@@ -115,7 +115,7 @@ const dbPria = [
         nama: "Indra",
         role: "student",
         umur: 23,
-        hobi: "coding",
+        hobi: "olahraga",
         "kalimat untuk hacktive": "coding adalah puzzle yang harus di selesaikan",
         jenisKelamin: "Pria"
     },
@@ -123,7 +123,7 @@ const dbPria = [
         nama: "Edu",
         role: "student",
         umur: 25,
-        hobi: "coding",
+        hobi: "film",
         "kalimat untuk hacktive": "hacktiv8 terlalu gg",
         jenisKelamin: "Pria"
     },
@@ -131,7 +131,7 @@ const dbPria = [
         nama: "Gilang",
         role: "student",
         umur: 24,
-        hobi: "badminton",
+        hobi: "olahraga",
         "kalimat untuk hacktive": "olizwell",
         jenisKelamin: "Pria"
     },
@@ -139,7 +139,7 @@ const dbPria = [
         nama: "Putra",
         role: "student",
         umur: 24,
-        hobi: "main",
+        hobi: "film",
         "kalimat untuk hacktive": "semakin maju",
         jenisKelamin: "Pria"
     },
@@ -287,7 +287,7 @@ const dbWanita = [
         nama: "Devi",
         role: "student",
         umur: 24,
-        hobi: "main",
+        hobi: "olahraga",
         "kalimat untuk hacktive": "jangan lupa cari jodoh",
         jenisKelamin: "Wanita"
     },
@@ -295,7 +295,7 @@ const dbWanita = [
         nama: "Jeane",
         role: "student",
         umur: 23,
-        hobi: "membaca",
+        hobi: "film",
         "kalimat untuk hacktive": "bersama teman-teman belajarnya",
         jenisKelamin: "Wanita"
     },
