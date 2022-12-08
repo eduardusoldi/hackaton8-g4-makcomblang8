@@ -2,8 +2,26 @@ body {
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100%;
-
+    
     background: url(./assets/background-3.png);
+}
+.identity1 p {
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 30px;
+    -ms-transform: translate(250%, 50%);
+    transform: translate(65%, -820%);
+    text-shadow: black;
+}
+
+.identity2 p {
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 30px;
+    -ms-transform: translate(250%, 50%);
+    transform: translate(90%, -1180%);
 }
 
 .icon img {
@@ -30,13 +48,13 @@ body {
     position: relative;
     width: 300px;
     -ms-transform: translate(250%, 50%);
-    transform: translate(225%, -55%);
+    transform: translate(225%, -120%);
 }
 #woman {
     position: relative;
     width: 300px;
     -ms-transform: translate(250%, 50%);
-    transform: translate(235%, -55%);
+    transform: translate(235%, -120%);
 }
 
 /* button strat */
@@ -95,15 +113,15 @@ body {
     top: 50%;
     left: 50%;
     -ms-transform: translate(50%, 50%);
-    transform: translate(-143%, 20%);
+    transform: translate(-143%, -40%);
 }
 /* button end */
 
-p {
+.center2 p {
     font-family: Roboto;
     text-align: center;
     color: #ffffff;
     font-weight: 900;
     font-size: 60px;
-    
+    margin-top: 20px;
 }
